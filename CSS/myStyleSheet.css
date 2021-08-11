@@ -7,6 +7,34 @@
     rgb(181, 131, 141),
     rgb(109, 104, 117),
 }
+*{
+    box-sizing: border-box;
+}
+.main{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: end;
+}
 
+
+h1{
+    color: brown;
+}
+.nev{
+    background-color: aqua;
+}
+.leiras{
+    background-color: red;
+}
+.leiras2{
+    background-color: violet;
+}
 
 

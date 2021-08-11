@@ -7,33 +7,71 @@
     rgb(181, 131, 141),
     rgb(109, 104, 117),
 }
+
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
+
 .main{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
     height: 100vh;
 }
+
+.navbar{
+    top: 0;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    height: 62px;
+    background: rgba(0,0,0,0.7);
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    line-height: 0.9;
+  }
+  
+  .navbar ul li {
+    margin: 0 0.2rem;
+    padding: 1rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar ul li a:hover {
+    color: whitesmoke;
+  }
+
 section{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-snap-align: end;
 }
-
 
 h1{
-    color: brown;
+    color: black
 }
-.nev{
+
+.introduction{
     background-color: aqua;
 }
-.leiras{
+.description{
     background-color: red;
 }
-.leiras2{
+.about{
     background-color: violet;
 }
 

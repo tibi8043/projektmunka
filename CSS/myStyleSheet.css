@@ -16,10 +16,11 @@
 }
 
 .main{
-    height: 100vh;
+    height: 100%;
 }
 
 .navbar{
+    
     position: fixed;
     top: 0;
     z-index: 1;
@@ -27,7 +28,8 @@
 }
 
 .navbar-custom{
-    background: rgba(0, 0, 0, 0.7);
+    
+    background: rgba(231, 209, 201, 0.8)
 }
 
 .navbar-brand{
@@ -41,6 +43,7 @@
 }
 
 .nav-link{
+    
     color: black;
     text-transform: uppercase;
     font-weight: bold;
@@ -60,22 +63,33 @@
 
 section{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
+
 
 h1{
     color: black
 }
 
 .introduction{
-    background-color: aqua;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../Images/kep1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 .description{
     background-color: red;
 }
 .about{
     background-color: violet;
+}
+#sectionOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sectionOne h1{
+    color:wheat
 }
 

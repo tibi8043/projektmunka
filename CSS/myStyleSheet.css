@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    font-family: 'STIX Two Text', serif;
+}
 
 .colorPalette{
     background-color: 
@@ -20,33 +26,27 @@
 }
 
 .navbar{
-    
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
+    font-family: 'Roboto', serif;
 }
 
-.navbar-custom{
-    
+.navbar-custom{ 
     background: rgba(231, 209, 201, 0.8)
 }
 
 .navbar-brand{
-    color: black;
+    color: whitesmoke;
     font-weight: bold;
 }
 
-.navbar-brand:hover{
-    color: white;
-    font-weight: bold;
-}
-
-.nav-link{
-    
+.nav-link{ 
     color: black;
     text-transform: uppercase;
     font-weight: bold;
+    line-height: 1.1;
 }
 
 .nav-link:hover{
@@ -55,6 +55,11 @@
 
 .fa fa-bars{
     color: black;
+}
+
+.siteLogo{
+    height: 46px;
+    width: 46px;
 }
 
 .navbar-toggler:hover{
@@ -66,7 +71,6 @@ section{
     
 }
 
-
 h1{
     color: black
 }
@@ -76,20 +80,22 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
+
+.introduction h1{
+    color:wheat;
+}
+
 .description{
     background-color: red;
 }
+
 .about{
     background-color: violet;
 }
-#sectionOne{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#sectionOne h1{
-    color:wheat
-}
+
+
 

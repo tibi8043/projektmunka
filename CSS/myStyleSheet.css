@@ -1,101 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
-body{
-    font-family: 'STIX Two Text', serif;
+body {
+  font-family: "STIX Two Text", serif;
+  overflow-x: hidden;
 }
 
-.colorPalette{
-    background-color: 
-    rgb(255, 205, 178),
-    rgb(255, 180, 162),
-    rgb(229, 152, 155),
-    rgb(181, 131, 141),
-    rgb(109, 104, 117),
+.colorPalette {
+  background-color: rgb(255, 205, 178), rgb(255, 180, 162), rgb(229, 152, 155),
+    rgb(181, 131, 141), rgb(109, 104, 117);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    user-select: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
 }
 
-.main{
-    height: 100%;
+.main {
+  height: 100%;
 }
 
-.navbar{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    font-family: 'Roboto', serif;
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  font-family: "Roboto", serif;
 }
 
-.navbar-custom{ 
-    background: rgba(231, 209, 201, 0.8)
+.navbar-custom {
+  background: rgba(231, 209, 201, 0.8);
 }
 
-.navbar-brand{
-    color: whitesmoke;
-    font-weight: bold;
+.navbar-brand {
+  color: whitesmoke;
+  font-weight: bold;
 }
 
-.nav-link{ 
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1.1;
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.1;
 }
 
-.nav-link:hover{
-    color: white;
+.nav-link:hover {
+  color: white;
 }
 
-.fa fa-bars{
-    color: black;
+.fa fa-bars {
+  color: black;
 }
 
-.siteLogo{
-    height: 46px;
-    width: 46px;
+.siteLogo {
+  height: 46px;
+  width: 46px;
 }
 
-.navbar-toggler:hover{
-    color: white;
+.navbar-toggler:hover {
+  color: white;
 }
 
-section{
-    height: 100vh;
-    
+section {
+  height: 100vh;
 }
 
-h1{
-    color: black
+h1 {
+  color: black;
 }
 
-.introduction{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../Images/kep1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+.introduction {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../Images/kep1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0 auto;
+  padding: 30px;
 }
 
-.introduction h1{
-    color:wheat;
+.introduction h1 {
+  font-size: 5vh;
+  color: wheat;
+  text-align: center;
+  margin-top: 10vh;
+}
+.introduction h2 {
+  color: rgb(229, 152, 155);
+  font-size: 3vh;
+  text-align: center;
+  margin-bottom: 3vh;
 }
 
-.description{
-    background-color: red;
+.description {
+  background-color: red;
 }
 
-.about{
-    background-color: violet;
+.about {
+  background-color: violet;
+}
+#scissorLeft {
+  transform: translateX(-5vw);
+}
+#scissorRight {
+  transform: translateX(5vw);
+}
+.scissors img {
+  position: absolute;
+  width: 10vw;
+  height: auto;
 }
 
-
-
+.scissors {
+  display: flex;
+  justify-content: center;
+}
+.szlogen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mainLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8vh auto;
+}
+#mainLogo img {
+  height: 250px;
+  width: auto;
+}

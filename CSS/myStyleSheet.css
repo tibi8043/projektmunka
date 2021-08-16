@@ -106,10 +106,10 @@ h1 {
   background-color: violet;
 }
 #scissorLeft {
-  transform: translateX(-5vw);
+  
 }
 #scissorRight {
-  transform: translateX(5vw);
+  
 }
 .scissors img {
   position: absolute;

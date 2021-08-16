@@ -105,12 +105,6 @@ h1 {
 .about {
   background-color: violet;
 }
-#scissorLeft {
-  
-}
-#scissorRight {
-  
-}
 .scissors img {
   position: absolute;
   width: 10vw;

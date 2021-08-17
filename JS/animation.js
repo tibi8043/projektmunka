@@ -13,11 +13,9 @@ function olloanimation() {
   let jobb = $("scissorRight");
   let value = window.scrollY;
   //bal.style.transform = "translateX(" + value * 0.1 + "%";
-//transform: translateX(-5vw);
   
-  bal.style.transform = "translateX("+value*-0.07+"vw)";
-  
-  jobb.style.transform = "translateX("+value*0.07+"vw)";
-
-  //transform: translateX(-5vw);
+  if (value < 500) {
+    bal.style.transform = "translateX(" + value * -0.07 + "vw)";
+    jobb.style.transform = "translateX(" + value * 0.07 + "vw)";
+  }
 }

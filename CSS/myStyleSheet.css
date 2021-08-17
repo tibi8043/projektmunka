@@ -110,7 +110,12 @@ h1 {
   width: 10vw;
   height: auto;
 }
-
+#scissorLeft{
+ position: relative; 
+}
+#scissorRight{
+  position: relative;
+}
 .scissors {
   display: flex;
   justify-content: center;
@@ -129,4 +134,6 @@ h1 {
 #mainLogo img {
   width: 250px;
   height: auto;
+  
+  
 }
